@@ -30,6 +30,5 @@ menu
 
 
 
-for moblie 
-![My-Food-for moblie](https://user-images.githubusercontent.com/75854041/111884255-70e29600-89d1-11eb-972c-6470b9dbdd7a.png)
+
 
