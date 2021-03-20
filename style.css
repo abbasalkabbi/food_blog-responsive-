@@ -1,0 +1,168 @@
+/*This for all*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Karma", sans-serif;
+}
+#divall{
+    transition: 0.3s filter linear;
+}
+/*Start nav style*/
+nav{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 250px;
+    z-index: 2;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+nav p,nav a{
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size:14px ;
+    padding: 12px 15px;
+    text-decoration: none;  
+}
+
+/*Style hr in nav */
+nav hr{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: inset;
+    border-width: 1px;
+    border-color:#eeeeee1a ;
+
+}
+/*Style hover  nav*/
+nav p:active,nav p:hover,nav a:hover{
+    background-color:#dbdbdb;
+    cursor: pointer;
+    
+}
+/*Start footer in nav*/
+
+
+footer ul li{
+    float: left;
+    list-style: none;
+}
+footer ul li a:hover {
+    background-color:#fff;
+    
+    cursor: pointer;
+}
+footer ul li img:hover{
+    opacity: 50%;
+}
+/*End footer in nav*/
+/*End nav style*/
+/*Start Style for header  */
+header{
+    background-color: #eeeeee;
+    height: 50px;
+    
+}
+header h1 {
+    margin-top: -15px;
+    text-align: center;
+    
+    
+    
+}
+/*Start Style for header  */
+/*Start Style  content */
+.content >div{
+    margin:10px auto;
+    width: 90%;
+}
+/* Style  img in content */
+.content >div img{
+    width: 100%;
+}
+/*Style h1 in content */ 
+.content >div h3{
+    font-size:24px;
+    text-align: center;
+}
+.content>div p{
+    text-align: center;
+}
+/*End Style  content */
+/*Start Style about*/
+/*Style hr in about */
+.about{
+    padding: 5%;
+    text-align: center;
+}
+.about hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 5%;
+}
+.about h3{
+    margin-top: 10px;
+    text-align: center;
+}
+/*img in about */
+.about img{
+    width: 90%;
+    
+}
+/*End Style about*/
+/*Style for ipad*/
+@media screen and (min-width:750px) and (max-width:1000px){
+    .content{
+        padding: 10px;
+        margin: auto;
+    }
+    .content >div{
+        margin:10px auto;
+        width: 50%;
+        float: right;
+    
+    }
+    .content >div img{
+        padding: 10px;
+        margin: auto;
+    }
+}
+/*Style for pc */
+
+@media screen and (min-width:1000px) {
+    /*Start Style  content */
+    
+    .content >div{
+        margin:10px auto;
+        width: 32.333%;
+        float: right;
+    }
+    .content >div img{
+        padding: 10px;
+        margin: auto;
+    }
+    /*Style h1 in content */ 
+    .content >div h3{
+        font-size:24px;
+        text-align: center;
+    }
+    .content>div p{
+        text-align: center;
+    }
+
+    /*End Style  content */
+/*Style for about*/
+.about h3{
+    margin-top: 1000px;
+    text-align: center;
+}
+
+}
